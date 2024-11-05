@@ -1,0 +1,5 @@
+length = int(input())
+width = int(input())
+height = int(input())
+loss = int(input())
+print(((length * width * height) / 1000) * (1 - (loss / 100)))
